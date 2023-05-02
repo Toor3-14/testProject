@@ -49,7 +49,9 @@ ____
 На деле всё проще.
 
 - cmd/app/main.go и cmd/app/connections.go - Собирают данные для конфигурации приложения:
+   
     a. Из аргументов приложения (-host, -port) для Redis,
+    
     b. Из resources/app.json, где должны быть поля (SERVER_ADDR, POSTGRES_ADDR, POSTGRES_USER_NAME, POSTGRES_PASSWORD).
 
   Создает пул подключений к PostgreSQL и создает клиент для Redis, кидает их в параметры конфигурации приложения (internal/app/app.go).
@@ -60,11 +62,12 @@ ____
   задача которых - предостваление доступа к полям Application structбез возможности их изменить.
 
 - internal/handler - хранит соответствующие handler'ы: 
-    a) users (строгая валидация json), 
     
-    b) incr (умеренная валидация json),
+    a. users (строгая валидация json), 
     
-    c) hmacsha512 (умеренная валидация json).
+    b. incr (умеренная валидация json),
+    
+    c. hmacsha512 (умеренная валидация json).
   
   Использовал строгую валидацию для users handler для примера.
   Валидация json происходит через pkg/helper/handler.go, он содержит необходимые функции, которые предполается переиспользовать.
