@@ -1,0 +1,7 @@
+{
+    "SERVER_ADDR": ":8080",
+
+    "POSTGRES_ADDR": "localhost:5432/write here your db name",
+    "POSTGRES_USER_NAME": "write your name here",
+    "POSTGRES_PASSWORD": "write your pass here"
+}
