@@ -38,7 +38,7 @@ ____
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/Toor3-14/testProject/main/content/scheme.png" rel="noopener" target="_blank">
-	<img width="150" src="content/scheme.png" alt="schema">
+	<img width="500" src="content/scheme.png" alt="schema">
   </a>
 </p>
 
