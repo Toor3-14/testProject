@@ -37,7 +37,7 @@ ____
 Итак, схема приложения выглядит так: 
 
 <p align="center">
-  <a href="https://github.com/Toor3-14/testProject/blob/main/content/scheme.png" rel="noopener" target="_blank">
+  <a href="https://raw.githubusercontent.com/Toor3-14/testProject/main/content/scheme.png" rel="noopener" target="_blank">
 	<img width="150" src="content/scheme.png" alt="schema">
   </a>
 </p>
@@ -75,7 +75,7 @@ ____
 
 Конечно можно было бы сделать как-то так:
 <p align="center">
-  <a href="https://github.com/Toor3-14/testProject/blob/main/content/easy.png" rel="noopener" target="_blank">
+  <a href="https://raw.githubusercontent.com/Toor3-14/testProject/main/content/easy.png" rel="noopener" target="_blank">
 	<img width="150" src="content/easy.png" alt="easy">
   </a>
 </p>
